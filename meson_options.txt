@@ -1,0 +1,4 @@
+option('idsdir', type: 'string', value: '/usr/share/hwdata', description: 'Directory for pci.ids')
+option('sysbuspci', type: 'string', value: '/sys/bus/pci', description: 'Location of sysfs PCI')
+option('procbuspci', type: 'string', value: '/proc/bus/pci', description: 'Location of proc PCI')
+option('pciids', type: 'string', value: 'pci.ids', description: 'Filename of PCI IDs file')
